@@ -9,7 +9,7 @@ module.exports = {
     },
     output: {
         path: path.resolve('lib'),
-        filename: `[name].${isProduction ? 'min.js' : '.js'}`
+        filename: `index.${isProduction ? 'min.js' : 'js'}`
     },
     resolve: {
         alias: {
